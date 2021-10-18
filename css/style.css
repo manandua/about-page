@@ -1,0 +1,78 @@
+html,body{
+    min-height: 100%;
+}
+body {
+    font-family: Roboto !important;
+    margin: 0;
+}
+.cont {
+    padding-left: 14vw;
+    padding-right: 7vw;
+    margin-top: 7vh;
+    display: flex;
+    justify-content: end;
+}
+
+.cont a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5vw;
+    font-weight: 300;
+}
+
+.sec-1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 4vw 15vw 0 15vw;
+}
+
+.sec-1 h1{
+    font-size: 3vw;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.sec-1 p{
+    font-size: 1.7vw;
+    font-weight: 300;
+    margin-top: 2vh;
+}
+
+.intro-text{
+    padding-bottom: 3vw;
+}
+
+.sec-1 img{
+    height: 30vh;
+    position: absolute;
+    max-width: 100%;
+    bottom: 0;
+    right: 15vw;
+}
+
+.about{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 12vh;
+}
+
+.about *{
+    margin-left:15vw;
+    margin-right: 15vw;
+}
+
+.about img{
+    margin-top: 15vh;
+}
+.about h2{
+    margin-top: 6vh;
+    font-weight: 400;
+}
+.about p{
+    font-weight: 300;
+    margin-top: 0;
+}
